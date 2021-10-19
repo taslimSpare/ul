@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">abcdef</string>
+
+    <string name="my_lessons">My Lessons</string>
+    <string name="live_lessons">Live Lessons</string>
+
+    <string name="live">live</string>
+    <string name="upcoming">upcoming</string>
+    <string name="replay">replay</string>
+
+    <string name="oops">Oops! Try again later</string>
+    <string name="no_live_lesson">There are no live lessons for this subject at the moment</string>
+    <string name="empty_timetable">Your timetable is empty</string>
+    <string name="no_lesson">Click remind me to add lessons to your timetable</string>
+
+    <array name="options">
+        <item>ALL SUBJECTS</item>
+        <item>MATHEMATICS</item>
+        <item>ENGLISH</item>
+        <item>CHEMISTRY</item>
+        <item>BIOLOGY</item>
+        <item>PHYSICS</item>
+    </array>
+
+
+    <string name="fab_desc">Floating Action Button for viewing \"My Lessons\"></string>
+    <string name="empty_image">Image to show that a fragment has no data></string>
+    <string name="screen_background">Background view of the fragment></string>
+    <string name="background_image">Background image</string>
+    <string name="custom_icon">Custom icon</string>
+
+</resources>

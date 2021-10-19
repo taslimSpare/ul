@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="20dp"
+    android:clickable="true"
+    android:focusable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        android:id="@+id/iv_image"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/background_image"
+        android:background="@drawable/ic_lesson_status"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_status"
+        tools:text="LIVE"
+        android:textSize="12sp"
+        android:fontFamily="@font/mulish_regular"
+        android:textColor="@color/white"
+        android:background="@drawable/ic_lesson_status"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:layout_margin="6dp"
+        app:layout_constraintStart_toStartOf="@+id/iv_image"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_image" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_subject"
+        tools:text="Biology"
+        android:textSize="11sp"
+        android:textColor="#313848"
+        android:fontFamily="@font/mulish_regular"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="start"
+        app:layout_constraintStart_toEndOf="@+id/iv_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_image" />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_topic"
+        tools:text="Understanding Reproduction in Plants"
+        android:textSize="15sp"
+        android:textColor="#313848"
+        android:fontFamily="@font/mulish_bold"
+        android:gravity="start"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintStart_toEndOf="@id/iv_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_subject" />
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_time"
+        tools:text="Started at 11:30 am"
+        android:textSize="12sp"
+        android:textColor="#8B8F99"
+        android:fontFamily="@font/mulish_regular"
+        android:gravity="start"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="6dp"
+        app:drawableStartCompat="@drawable/ic_clock"
+        app:layout_constraintStart_toEndOf="@+id/iv_image"
+        app:layout_constraintTop_toBottomOf="@+id/tv_topic" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_instructor"
+        tools:text="Gabriella Gabriel"
+        android:textSize="12sp"
+        android:textColor="#8B8F99"
+        android:fontFamily="@font/mulish_regular"
+        android:gravity="start"
+        android:layout_marginStart="23dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp"
+        android:drawablePadding="6dp"
+        app:drawableStartCompat="@drawable/ic_instructor"
+        app:layout_constraintStart_toEndOf="@+id/iv_image"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

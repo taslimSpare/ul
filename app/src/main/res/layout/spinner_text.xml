@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:textColor="@color/white"
+    android:textSize="12sp"
+    android:fontFamily="@font/mulish_regular"
+    tools:text="Sample item"
+    app:drawableEndCompat="@drawable/ic_spinner_icon"
+    android:drawablePadding="7dp"
+    android:paddingStart="7dp"
+    android:paddingEnd="7dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+
+</TextView>
